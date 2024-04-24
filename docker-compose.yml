@@ -3,11 +3,11 @@
  services:
    api-students:
      build: ./api-students
-     image: gcolchado/api-students
+     image: gabrielromerod/api-students
      ports:
        - 8000:8000
    websimple:
      build: ./websimple
-     image: gcolchado/websimple
+     image: gabrielromerod/websimple
      ports:
        - 8080:80
